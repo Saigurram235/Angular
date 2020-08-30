@@ -1,0 +1,260 @@
+<!-- <div class="bg-info" style="width: 800px;height: 900px;"><h1>sai</h1>
+
+
+    
+</div> -->
+
+
+<!-- Example for Interpolution binding  -->
+
+    <!-- {{name}} -->
+    <!-- {{v1+v2}} -->
+    <!-- {{date}} -->
+    <!-- <input type="text" name="name" value="{{value1}}"> -->
+
+<!-- Example for Property binding  -->
+
+    <!-- <input type="text" name="name" [value]='v2'> -->
+
+<!-- Example for Atribute binding -->
+
+    <!-- <table border="1">
+        <tr>
+            <td colspan="2">Name</td>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td>Sai</td>
+            <td>Gurram</td>
+            <td>Sai@gmail.com</td>
+        </tr>
+    </table> 
+
+    <table border="1">
+        <tr>
+            <td [attr.colspan]="num">Name</td>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td>Sai</td>
+            <td>Gurram</td>
+            <td>Sai@gmail.com</td>
+        </tr>
+    </table>  -->
+
+
+
+<!-- Example for event binding -->
+
+<!-- <h1 class="p-4 bg-danger text-white text-center">Event Binding</h1>
+
+<div>
+
+    <input type="text" name="" [value]="valc">
+
+    <button (click)="myfunc()">Submit</button>
+
+</div> -->
+
+<!-- Example for Two way binding -->
+
+<!-- <h1 class="p-4 bg-danger text-white text-center">Two way Binding</h1>
+
+<div>
+
+    <input type="text" name="" [(ngModel)]="text">
+
+    <button> {{text}} </button>
+
+</div> -->
+
+<!--  Template Reference Variable -->
+
+<!-- <h1 class="p-4 bg-danger text-white text-center">Two way Binding</h1> -->
+
+    <!--  inter pollution -->
+
+    <!-- <h2 class="p-4 bg-info text-white text-center">
+        {{showdata}}
+    </h2> -->
+
+    <!-- Reference -->
+
+    <!-- <input type="text" #name> -->
+
+    <!-- attribute binding  -->
+
+    <!-- <button (click)="myfunc(name.value)">Submit Form</button> -->
+
+
+<!-- Attribute Directve in Angular -->
+
+<!-- <div class="p-4 bg-danger text-white text-center">
+    <H1>Attribute Directve in Angular</H1>
+    <ul style="list-style-type:none;">
+        <li class="display-4">
+            NgStyle -->
+            <!-- This NgStyle adding css ts file example -->
+            <!-- <div class="container mt-5">
+                <button [ngStyle]="mystyle">submit</button>
+            </div>
+        </li>
+        <li class="display-4">
+            NgClass -->
+            <!-- This NgClass adding css in css file example -->
+            <!-- <div class="container mt-5">
+                <button [ngClass]="'mysty myfont'">submit</button>
+            </div> -->
+            
+            <!-- This NgClass adding css in css file and adding object ts file example -->
+            <!-- <div class="container mt-5">
+                <button [ngClass]="myclass">submit</button>
+            </div>  
+        </li>
+    </ul>
+</div> -->
+
+<!-- Structural Directives Sub part ngIf -->
+
+<!-- <div *ngIf="department==='angula'">
+    <h1 class="text-center text-white bg-success">you are learnig angular ngIf</h1>
+</div>
+
+<div *ngIf="department==='angular' then correct else wrong"></div>
+
+<ng-template #correct>
+    <h1 class="text-center text-white bg-success">you are learnig angular ngIf</h1>
+</ng-template>
+
+<ng-template #wrong>
+    <h1 class="text-center text-white bg-danger">you are not learnig angular ngIf</h1>
+</ng-template> -->
+
+<!-- Structural Directives Sub part ngFor -->
+
+<!-- <table class="table table-bordered">
+    <tr>
+        <th>Index</th>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor="let emp of employee; let myindex = index">
+        <td>{{myindex + 1}}</td>
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.email}}</td>
+    </tr>
+</table> -->
+
+ <!-- Structural Directives Sub part ngSwitch -->
+
+<!-- <div [ngSwitch] = "name" class="text-center display-2">
+    <p *ngSwitchCase = "'sai'">
+        I am Sai
+    </p>
+    <p *ngSwitchCase = "'nani'">
+        I am Nani
+    </p>
+    <p *ngSwitchCase = "'sunny'">
+        I am Sunny
+    </p>
+    <p *ngSwitchCase = 1>
+        I am pandu
+    </p>
+    <p *ngSwitchDefault>
+        This is Default
+    </p>
+</div> -->
+
+<!-- <app-header></app-header> -->
+
+<!-- <button (click)="homepage()" class="btn btn-primary btn-lg">Home</button>
+<button (click)="aboutpage()" class="btn btn-primary btn-lg">AboutUs</button> -->
+
+<!-- Pipe -->
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{ v1 }}</span>
+    </p>
+</div>
+<div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{ v1 | titlecase }}</span>
+    </p>
+</div>
+<div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{ v1 | lowercase }}</span>
+    </p>
+</div>
+<div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{ v1 | uppercase }}</span>
+    </p>
+</div> -->
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{ v1 | slice:0:-10 }}</span>
+    </p>
+</div> -->
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{var1 | slice:0:100}} ... <a href="#">More</a></span>
+    </p>
+</div> -->
+
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark"> {{var1 | date}}</span>
+    </p>
+</div> -->
+
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark"> {{today | date:'fullDate'}}</span>
+    </p>
+</div> -->
+
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{var2 | number:'4.2-7'}}</span>
+    </p>
+</div> -->
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{var2 | percent}}</span>
+    </p>
+</div> -->
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{var2 | currency}}</span>
+    </p>
+</div>
+<div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{var2 | currency:'INR'}}</span>
+    </p>
+</div>
+<div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example japanic currency : <span class="text-dark">{{var2 | currency:'jpyi'}}</span>
+    </p>
+</div>
+<div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        This is pipe example : <span class="text-dark">{{var2 | currency:'INR':'code'}}</span>
+    </p>
+</div> -->
+
+<!-- <div class="bg-danger p-5 text-white text-center font-weight-bold display-4">
+    <p>
+        {{'I am' | mycity:'Del'}}
+    </p>
+</div> -->
+
+<router-outlet></router-outlet>
+
+<!-- <app-footer></app-footer> -->

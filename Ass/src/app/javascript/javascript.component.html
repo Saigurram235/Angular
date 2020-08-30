@@ -1,0 +1,254 @@
+<div class="w3-main w3-light-grey bg-info" id="belowtopnav" style=" padding: 0 150px;">
+    <div class="w3-row w3-white">
+      <div class="w3-col l10 m12" id="main">
+        <div id="mainLeaderboard" style="overflow:hidden;">
+          <!-- MainLeaderboard-->
+  
+          <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+          <div id="snhb-main_leaderboard-0" data-google-query-id="CO3PuquY6uoCFULDjwodveIDDA"><div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//main_leaderboard_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/22152718/sws-hb//w3schools.com//main_leaderboard_0" title="3rd party ad content" name="google_ads_iframe_/22152718/sws-hb//w3schools.com//main_leaderboard_0" width="970" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="1" data-load-complete="true"></iframe></div></div>
+          <!-- adspace leaderboard -->
+         
+        </div>
+  <h1>JavaScript <span class="color_h1">Tutorial</span></h1>
+  <div class="w3-clear nextprev">
+  <a class="w3-left w3-btn" href="/default.asp">❮ Home</a>
+  <a class="w3-right w3-btn" href="js_intro.asp">Next ❯</a>
+  </div>
+  
+  <div class="w3-panel w3-info intro">
+  <p>JavaScript is the programming language of HTML and the Web.</p>
+  <p>JavaScript is easy to learn.</p>
+  <p>This tutorial will teach you JavaScript from basic to advanced.</p>
+  <a class="w3-btn w3-margin-bottom" href="js_intro.asp">Start learning JavaScript now »</a>
+  
+  </div>
+  <!--
+  <hr>
+  <h2>Dynamically Update HTML</h2>
+  <p>JavaScript can perform programming tasks and dynamically change the content 
+  of a web page.</p>
+  <style>
+  #clickgame {
+    overflow:auto;
+  }
+  #clickgame div{
+    color: #fff;
+    background-color: #2196F3;
+    line-height:120px;
+    text-align:center;
+    margin:5px;
+    width:130px;
+    float:left;
+    cursor:pointer;
+  }
+  #clickgame .redbtn{
+    background-color: #dc3545;
+  }
+  #clickgame .timediv{
+    background-color:transparent;
+    color: #000;
+    font-size:20px;
+  }
+  </style>
+  <div class="w3-example">
+  <h3>Example</h3>
+  <p><span id="exampletext">Click the blue button:</span></p>
+  <div class="w3-padding w3-white notranslate">
+  <div id="clickgame">
+    <div id="bluebtn">Click Me</div>
+  </div>
+  </div>
+  <br>
+  </div>
+  
+  <script>
+  document.getElementById("bluebtn").addEventListener("click", addbtn);
+  function addbtn() {
+    var el, x;
+    el = document.createElement("div");
+    el.innerText = "Click Me";
+    el.setAttribute("class", "redbtn");
+    el.addEventListener("click", displaytime);
+    x = document.getElementById("bluebtn");
+    x.parentNode.appendChild(el);
+    x.innerHTML = "&nbsp;";
+    x.style.cursor = "auto";
+    x.removeEventListener("click", addbtn);
+    document.getElementById("exampletext").innerHTML = "Click the red button:";
+  }
+  function formatnumber(n) {
+    if (n <= 9) n = "0" + n;
+    return n;
+  }
+  function displaytime() {
+    var ct, h, m, s, d = new Date();
+    h = d.getHours();
+    m = formatnumber(d.getMinutes());
+    s = formatnumber(d.getSeconds());
+    ct =  h + ":" + m + ":" + s;
+    document.getElementById("clickgame").innerHTML = "<div class='timediv'>" + ct + "</div>";
+    document.getElementById("exampletext").innerHTML = "Current Time:";
+    window.setTimeout(displaytime, 1000);
+  }
+  </script>
+  
+  <hr>
+  <h2>Examples in Each Chapter</h2>
+  <p>With our &quot;Try it Yourself&quot; editor, you can edit the source code and view 
+  the result.</p>
+  <div class="w3-example">
+  <h3>Example</h3>
+  <div class="w3-code notranslate jsHigh">
+  function myFunction() {<br>
+  &nbsp;&nbsp;document.getElementById("demo").innerHTML = Date();<br>
+  }
+  </div>
+  <p>
+  <a target="_blank" class="w3-btn" href="tryit.asp?filename=tryjs_currentdate">Try it Yourself &raquo;</a>
+  </p>
+  </div>
+  -->
+  <hr>
+  <h2>Examples in Each Chapter</h2>
+  <p>With our "Try it Yourself" editor, you can edit the source code and view 
+  the result.</p>
+  <div class="w3-example">
+  <h3>Example</h3>
+  <div class="w3-padding w3-white notranslate">
+  <h2>My First JavaScript</h2>
+  <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+  Click me to display Date and Time</button>
+  <p id="demo"></p>
+  </div>
+  <p>
+  <a target="_blank" class="w3-btn" href="tryit.asp?filename=tryjs_myfirst">Try it Yourself »</a>
+  </p>
+  </div>
+  
+  <div class="w3-panel w3-note">
+  <p>We recommend reading this tutorial, in the sequence listed in the left menu.</p>
+  </div>
+  
+  <hr>
+  <h2>Learn by Examples</h2>
+  <p>Examples are better than 1000 words. Examples are often easier to understand 
+  than text explanations.</p>
+  <p>This tutorial supplements all explanations with clarifying "Try it Yourself" examples.</p>
+  <p><a href="js_examples.asp">JavaScript Examples</a></p>
+  <div class="w3-panel w3-note">
+  <p>If you try all the examples, you will learn a lot about JavaScript, in a very short time!</p>
+  </div>
+  
+  <hr>
+  <h2>Why Study JavaScript?</h2>
+  <p>JavaScript is one of the <strong>3 languages</strong> all web developers <strong>
+  must</strong> 
+  learn:</p>
+  <p>&nbsp;&nbsp; 1. <a href="/html/default.asp"><strong>HTML</strong></a> to define the content of web pages</p>
+  <p>&nbsp;&nbsp; 2. <a href="/css/default.asp"><strong>CSS</strong></a> to specify the layout of web pages</p>
+  <p>&nbsp;&nbsp; 3. <strong>JavaScript</strong> to program the behavior of web pages </p>
+  <p>Web pages are not the only place where JavaScript is used.
+  Many desktop and server programs use JavaScript. <a href="/nodejs/default.asp">Node.js</a> is the best known. 
+  Some databases, like MongoDB and CouchDB, also use JavaScript as their programming language.</p>
+  
+  <hr>
+  <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+  <!-- MidContent -->
+  
+    <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+    <div id="snhb-mid_content-0" data-google-query-id="CK6Tp6yY6uoCFQyIcAodD50HDA"><div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0" title="3rd party ad content" name="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0" width="970" height="251" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="6" data-load-complete="true"></iframe></div></div>
+  
+  <!--<p class="adtext">Advertisement</p>    -->
+  </div>
+  <hr>
+  <div class="w3-panel w3-note">
+  <h3>Did You Know?</h3>
+  <p>JavaScript and <a href="/java/default.asp">Java</a> are completely different languages, both in concept 
+  and design.</p>
+  <p>JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard  
+  in 1997.<br>ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+  </p>
+  <p>You can read more about the different JavaScript versions in the chapter 
+  <a href="js_versions.asp">JS Versions</a>.</p>
+  </div>
+  
+  <h2>Learning Speed</h2>
+  <p>In this tutorial, the learning speed is your choice.</p>
+  <p>Everything is up to you.</p>
+  <p>If you are struggling, take a break, or reread the material.</p>
+  <p><strong>Always</strong> make sure you understand <strong>all</strong> the "Try-it-Yourself" 
+  examples.</p>
+  <hr>
+  <h2>JavaScript References</h2>
+  <p>W3Schools maintains a complete JavaScript reference, including all HTML and browser objects.</p>
+  <p>The reference contains examples for all properties, methods and events, and 
+  is continuously updated according to the latest web standards.</p>
+  <p><a href="/jsref/default.asp">Complete JavaScript Reference</a></p>
+  <hr>
+  <h2>JavaScript Exercises</h2>
+  <form autocomplete="off" spellcheck="false" id="w3-exerciseform" action="exercise_js.asp?filename=exercise_js_variables1" method="post" target="_blank">
+  <h2>Test Yourself With Exercises</h2>
+  <div class="exercisewindow">
+  <h2>Exercise:</h2>
+  <p>Create a variable called <code class="w3-codespan">carName</code> and assign the value <code class="w3-codespan">Volvo</code> to it.</p>
+  <div class="exerciseprecontainer">
+  <pre>var <input name="ex1" maxlength="7" style="width: 75px;"> = "<input name="ex2" maxlength="5" style="width: 54px;">";
+  </pre>
+  </div>
+  <br>
+  <button type="submit" class="w3-btn w3-margin-bottom">Submit Answer »</button>
+  <p><a target="_blank" href="exercise_js.asp?filename=exercise_js_variables1">Start the Exercise</a></p>
+  </div>
+  </form>
+  <hr>
+  
+  <h2>JavaScript Quiz Test</h2>
+  <p>Test your JavaScript skills at W3Schools!</p>
+  <p><a href="js_quiz.asp" class="w3-button w3-blue">Start JavaScript Quiz!</a></p>
+  <hr>
+  
+  <h2>JavaScript Exam - Get Your Diploma!</h2>
+  <div class="w3-row">
+  <div class="w3-third w3-container w3-padding-24"><a href="/cert/default.asp"><img src="/images/w3certified_logo_250.png" style="max-width:100%;" alt="W3Schools Certification"></a> </div>
+  <div class="w3-twothird w3-container"><h2>W3Schools' Online Certification</h2>
+  <p>The perfect solution for professionals who need to balance work, family, and career building.</p>
+  <p>More than 25 000 certificates already issued!</p>
+  </div>
+  </div>
+  <p><a class="w3-btn" href="/cert/default.asp">Get Your Certificate »</a></p>
+  <p style="clear:both;">The <a href="/cert/default.asp">HTML Certificate</a> documents your knowledge of HTML.</p>
+  <p>The <a href="/cert/default.asp">CSS Certificate</a> documents your knowledge of advanced CSS.</p>
+  <p>The <a href="/cert/default.asp">JavaScript Certificate</a> documents your knowledge of JavaScript and HTML DOM.</p>
+  <p>The <a href="/cert/default.asp">Python Certificate</a> documents your knowledge of Python.</p>
+  <p>The <a href="/cert/default.asp">jQuery Certificate</a> documents your knowledge of jQuery.</p>
+  <p>The <a href="/cert/default.asp">SQL Certificate</a> documents your knowledge of SQL.</p>
+  <p>The <a href="/cert/default.asp">PHP Certificate</a> documents your knowledge of PHP and MySQL.</p>
+  <p>The <a href="/cert/default.asp">XML Certificate</a> documents your knowledge of XML, XML DOM and XSLT.</p>
+  <p>The <a href="/cert/default.asp">Bootstrap Certificate</a> documents your knowledge of the Bootstrap framework.</p>
+  <br>
+  <div class="w3-clear nextprev">
+  <a class="w3-left w3-btn" href="/default.asp">❮ Home</a>
+  <a class="w3-right w3-btn" href="js_intro.asp">Next ❯</a>
+  </div>
+  </div>
+  <div class="w3-col l2 m12" id="right">
+  
+  
+
+  <br><br>
+  </div>
+  
+  </div></div>
+
+  
+  <div class="w3-center w3-small w3-opacity bg-dark text-white" style="padding: 0 150px;">
+    <div class="p-5">
+    W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding.
+    Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.
+    While using this site, you agree to have read and accepted our <a href="/about/about_copyright.asp">terms of use</a>,
+    <a href="/about/about_privacy.asp">cookie and privacy policy</a>.
+    <a href="/about/about_copyright.asp">Copyright 1999-2020</a> by Refsnes Data. All Rights Reserved.<br>
+     <a href="//www.w3schools.com/w3css/default.asp">Powered by W3.CSS</a>.<br><br>
+    <a href="//www.w3schools.com">
+    <img style="width:150px;height:28px;border:0" src="/images/w3schoolscom_gray.gif" alt="W3Schools.com"></a></div>
+    </div>
