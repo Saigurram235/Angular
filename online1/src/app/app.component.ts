@@ -9,9 +9,9 @@ import { from } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'online1';
-  storedPosts:  ComModule[] = [];
-  onPostAdded(post) {
-    this.storedPosts.push(post);
-  }
+  // title = 'online1';
+  // storedPosts:  ComModule[] = [];
+  // onPostAdded(post) {
+  //   this.storedPosts.push(post);
+  // }
 }
