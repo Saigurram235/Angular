@@ -1,0 +1,17 @@
+tr.even {
+    background: black;
+    color: white;
+}
+
+tr.first{
+    background: green;
+}
+
+tr.last{
+    background: hotpink;
+}
+
+tr.odd {
+    background: tomato;
+    color: white;
+}
